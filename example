@@ -1,0 +1,112 @@
+mainApp.js:49 [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object]
+mainApp.js:57 [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object]
+mainApp.js:61 Uncaught ReferenceError: LAT is not defined
+    at Object.<anonymous> (mainApp.js:61)
+    at fire (jquery-2.2.0.js:3182)
+    at Object.fireWith [as resolveWith] (jquery-2.2.0.js:3312)
+    at done (jquery-2.2.0.js:8754)
+    at XMLHttpRequest.<anonymous> (jquery-2.2.0.js:9120)
+(anonymous) @ mainApp.js:61
+fire @ jquery-2.2.0.js:3182
+fireWith @ jquery-2.2.0.js:3312
+done @ jquery-2.2.0.js:8754
+(anonymous) @ jquery-2.2.0.js:9120
+var state = {
+  "slideNumber": 0, // slideNumber keeps track of what slide you are on. It should increase when you
+                    // click the next button and decrease when you click the previous button. It
+                    // should never get so large that it is bigger than the dataset. It should never
+                    // get so small that it is smaller than 0.
+  "slideData": [
+    {
+      "name": "Is the Developed World Really Developed?",
+      "description": "What is meant by the term 'Devloped World?' Let's explore how diverse and developed these countries really are.",
+    },
+
+    {
+      "name": "Where is the 'Developed World'?",
+      "description": "Developed countries are highly clustered with a few notable exceptions"
+    },
+
+    {
+      "name": "What makes the 'Developed World' developed?",
+      "description": "Average incomes is the only mectric used to determine what makes a country developed",
+    }
+  ]
+};
+undefined
+state
+ObjectslideData: Array[3]0: Objectdescription: "What is meant by the term 'Devloped World?' Let's explore how diverse and developed these countries really are."name: "Is the Developed World Really Developed?"__proto__: Object1: Object2: Objectlength: 3__proto__: Array[0]slideNumber: 0__proto__: Object
+var next = function() {
+  state.slideNumber++;
+}
+undefined
+next();
+undefined
+next();
+undefined
+next();
+undefined
+state.slideNumber
+3
+var readSlideTitle = function(slideNumber) {
+  console.log(state.slideData[slideNumber].name);
+}
+undefined
+$('.sidebar').hide();
+[]
+$('#sidebar').hide();
+[div#sidebar]
+$('#sidebar').show();
+[div#sidebar]
+$('#sidebar').text("Hello");
+[div#sidebar]
+var readSlideTitle = function(slideNumber) {
+  console.log(state.slideData[slideNumber].name);
+}
+undefined
+var onNextClick = function() {
+  next();
+  readSlideTitle(state.slideNumber);
+}
+undefined
+state.slideNumber
+3
+state.slideNumber = 0;
+0
+onNextClick();
+VM1686:2 Where is the 'Developed World'?
+undefined
+onNextClick();
+VM1686:2 What makes the 'Developed World' developed?
+undefined
+onNextClick();
+VM1686:2 Uncaught TypeError: Cannot read property 'name' of undefined
+    at readSlideTitle (<anonymous>:2:43)
+    at onNextClick (<anonymous>:3:3)
+    at <anonymous>:1:1
+readSlideTitle @ VM1686:2
+onNextClick @ VM1809:3
+(anonymous) @ VM2000:1
+state.slideNumber = 0;
+0
+onNextClick();
+VM1686:2 Where is the 'Developed World'?
+undefined
+state.slideNumber
+1
+var readSlideTitle = function(slideNumber) {
+  $('#sidebar').text(state.slideData[slideNumber].name);
+}
+undefined
+onNextClick();
+undefined
+state.slideNumber = 0;
+0
+onNextClick();
+undefined
+onNextClick();
+undefined
+state.slideNumber = 0;
+0
+$('#sidebar').click(onNextClick);
+[div#sidebar]

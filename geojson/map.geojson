@@ -1,0 +1,1247 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.034259475137,
+        "Y": 40.071133189242,
+        "OBJECTID": 1,
+        "NAME": "Hasty Residence",
+        "DEVELOPER": "Mercury Solar Systems",
+        "KW": 3.7,
+        "YEARBUILT": 2009,
+        "ADDRESS": "8947 Leonard Street",
+        "ZIPCODE": 19152,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/20.%20Hasty%20Residence.JPG",
+        "NOTES": "Sharp 175 modules on ProSolar racking.  Funding by the PA Sunshine program."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.034256,
+          40.071117
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.193484563257,
+        "Y": 39.96619513575,
+        "OBJECTID": 2,
+        "NAME": "PHAs Mantua Revitalization Project",
+        "DEVELOPER": "Mercury Solar Systems",
+        "KW": 177,
+        "YEARBUILT": 2011,
+        "ADDRESS": "Faimount Ave & N 35th St",
+        "ZIPCODE": 19104,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/21.%20PHA.jpg",
+        "NOTES": "Schott 230 modules on UniRac racking.  Funding by a grant from the EPA."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.193481,
+          39.966179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.162509540014,
+        "Y": 39.943719128979,
+        "OBJECTID": 3,
+        "NAME": "Cox",
+        "DEVELOPER": "Mercury Solar Systems",
+        "KW": 2.1,
+        "YEARBUILT": 2010,
+        "ADDRESS": "1220 Rodman St",
+        "ZIPCODE": 19147,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/22.%20Cox.jpg",
+        "NOTES": "12 Sharp  175 watt monocrystalline modules on Pro Solar racking, connected to a Fronius IG 2000 inverter."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.162506,
+          39.943703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.154666535959,
+        "Y": 39.943558129766,
+        "OBJECTID": 4,
+        "NAME": "Gluck",
+        "DEVELOPER": "Mercury Solar Systems",
+        "KW": 2.46,
+        "YEARBUILT": 2010,
+        "ADDRESS": "412 Perth Street",
+        "ZIPCODE": 19147,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/23.%20Gluck.jpg",
+        "NOTES": "11 Sharp  224 watt polycrystalline modules on Pro Solar racking, connected to a PV Powered 2500 inverter."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.154663,
+          39.943542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.221721578321,
+        "Y": 39.947511126337,
+        "OBJECTID": 5,
+        "NAME": "Tannen Fine Carpentry",
+        "DEVELOPER": "Mercury Solar Systems",
+        "KW": 7,
+        "YEARBUILT": 2010,
+        "ADDRESS": "4921 Pentridge Street",
+        "ZIPCODE": 19143,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/24.%20Tannen%20Fine%20Carpentry.jpg",
+        "NOTES": "40 Sharp  175 watt monocrystalline modules on ProSolarc racking, connected to a SMA SB7000 inverter."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.221718,
+          39.947495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.14892953276,
+        "Y": 39.950471132531,
+        "OBJECTID": 6,
+        "NAME": "The Bourse",
+        "DEVELOPER": "Union Electric",
+        "KW": 43,
+        "YEARBUILT": 2010,
+        "ADDRESS": "21 S.  5th St.",
+        "ZIPCODE": 19106,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/25.%20The%20Bourse.JPG",
+        "NOTES": "Solar panels, 210 in all, have gone up on the roof of the historic Bourse building, the nations first commodities exchange, circa 1895.  Out on the Bourses 30,000-square-foot roof, the solar panels are arranged in five separate sections, to avoid the skylights and the shadows cast by two hulking mechanical penthouses. The building itself is surrounded by structures of similar height or shorter, so it is not in any shadows."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.148926,
+          39.950455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.151477529542,
+        "Y": 39.921094121317,
+        "OBJECTID": 7,
+        "NAME": "Local 98 building",
+        "DEVELOPER": "IBEW98",
+        "KW": 31,
+        "YEARBUILT": 2006,
+        "ADDRESS": "2150 S. 3rd. St.",
+        "ZIPCODE": 19148,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/26.%20IBEW98%20S.%203rd%20St.jpg",
+        "NOTES": "This solar installation was the formalization of Local 98 Green Initiative.  This installation is easily accessible, and serves as a teaching tool for apprentices."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.151474,
+          39.921078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.145976528078,
+        "Y": 39.933339126172,
+        "OBJECTID": 8,
+        "NAME": "Richter Residence",
+        "DEVELOPER": "Solardelphia",
+        "KW": 5.5,
+        "YEARBUILT": 2008,
+        "ADDRESS": "101 Alter Street",
+        "ZIPCODE": 19147,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/27.%20Richter%20Residence.jpg",
+        "NOTES": "This is a horizontally mounted PV array which fully covers the flat roof of the residence.  The house is overlooks Rte. 95, but the PV modules are impossible to see from the highway.  Even though the PV array is in the horizontal position, its performing amzingly well!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.145973,
+          39.933323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.130145522928,
+        "Y": 39.973027143466,
+        "OBJECTID": 9,
+        "NAME": "Van Yuga Res.",
+        "DEVELOPER": "MESA Environmental Sciences (now Conergy)",
+        "KW": 3.4,
+        "YEARBUILT": 2007,
+        "ADDRESS": "8 Willig Avenue",
+        "ZIPCODE": 19125,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/28.%20VanYuga%20Residence.JPG",
+        "NOTES": "The Van Yuga system is located in Northern Liberties, where the tilted PV array is mounted on a rack fixed onto a flat roof of a row home."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.130142,
+          39.973011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -74.988872444163,
+        "Y": 40.05733918625,
+        "OBJECTID": 10,
+        "NAME": "Dougherty Res.",
+        "DEVELOPER": "Heat Shed",
+        "KW": 5.28,
+        "YEARBUILT": 2005,
+        "ADDRESS": "9619 Torresdale Ave.",
+        "ZIPCODE": 19114,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/29.%20Dougherty%20Residence.jpg",
+        "NOTES": "The Dougherty system is located in the far Northeast section of Philadelphia, where the PV array completely covers the south facing side of the asphalt roof."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.988869,
+          40.057323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.252154601393,
+        "Y": 39.985688139434,
+        "OBJECTID": 11,
+        "NAME": "Allen Res.",
+        "DEVELOPER": "Energy Coordinating Agency",
+        "KW": 2.88,
+        "YEARBUILT": 2004,
+        "ADDRESS": "6346 Sherwood Rd.",
+        "ZIPCODE": 19151,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/30.%20Allen%20Residence.JPG",
+        "NOTES": "The PV system installed at the Allens Tudor style home is located in the Overbrook section of Philadelphia, with the PV modules mounted on a 45 degree pitched roof."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.252151,
+          39.985672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -74.996051456595,
+        "Y": 40.126397213227,
+        "OBJECTID": 12,
+        "NAME": "Bradley Res.",
+        "DEVELOPER": "Advanced Solar Products",
+        "KW": 5.18,
+        "YEARBUILT": 2004,
+        "ADDRESS": "15165 Wayside Rd.",
+        "ZIPCODE": 19116,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/31.%20Bradleyhouse%20Residence.jpg",
+        "NOTES": "The Bradley solar PV system is located in the far Northeast section of Philadelphia, and includes a battery backup system, which provides about about 1 1/2 days of emergency backup power when there is a blackout."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.996048,
+          40.126381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.184108567864,
+        "Y": 40.058930173363,
+        "OBJECTID": 13,
+        "NAME": "Schrader Res.",
+        "DEVELOPER": "Heat Shed",
+        "KW": 4.46,
+        "YEARBUILT": 2006,
+        "ADDRESS": "215 East Gorgas Lane",
+        "ZIPCODE": 19119,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/32.%20Schrader%20Residence.JPG",
+        "NOTES": "The Schrader solar PV system includes the very efficient Sanyo modules mounted on a low pitched ashalt roof of a twin home, which is located in the Mount Airy section of Philadelphia."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.184105,
+          40.058914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.16371553962,
+        "Y": 39.935906126012,
+        "OBJECTID": 14,
+        "NAME": "Porta Res.",
+        "DEVELOPER": "Suntechnics (now Conergy)",
+        "KW": 3.06,
+        "YEARBUILT": 2007,
+        "ADDRESS": "1140 South 12th Street",
+        "ZIPCODE": 19147,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/33.%20Porta%20Residence.JPG",
+        "NOTES": "The Porta system is located in South Philly, where the tilted PV array is mounted on a racking system fixed onto a flat roof of a row home."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.163712,
+          39.93589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.213542572305,
+        "Y": 39.943963125895,
+        "OBJECTID": 15,
+        "NAME": "Mayne Res.",
+        "DEVELOPER": "Heat Shed",
+        "KW": 2.58,
+        "YEARBUILT": 2006,
+        "ADDRESS": "4724 Kingsesing Ave.",
+        "ZIPCODE": 19143,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/34.%20Mayne%20Residence.JPG",
+        "NOTES": "This very efficient SunPower array is mount on a very small roof of a row home in the Greys Ferry section of Philly.  Very efficient PV modules are typically needed on very small roofs, such as this application."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.213539,
+          39.943947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.180339559265,
+        "Y": 40.009629153935,
+        "OBJECTID": 16,
+        "NAME": "Randolf Skills Center",
+        "DEVELOPER": "Alternative Construction Technologies (now Solardelphia)",
+        "KW": 5.04,
+        "YEARBUILT": 0,
+        "ADDRESS": "Henry & Roberts Avenue",
+        "ZIPCODE": 19129,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/35.%20Randolph%20Residence.JPG",
+        "NOTES": "The 5 kW PV system at the Randoff Skills Center on Henry Ave. was originally installed in 1992, about the same time a similar solar PV system was installed at the Franklin Institute (which still resides there, but is not functioning).  It was found that this system hadnt been working over ten years!  After careful review and redesign of the system, including rearranging the PV modules on the exisitng racking structure and replacing the inverters, this system was resurrected, funded by the SDF Solar Program."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.180336,
+          40.009613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.129237523213,
+        "Y": 39.975747143913,
+        "OBJECTID": 17,
+        "NAME": "Gerred Residence",
+        "DEVELOPER": "Soardelphia",
+        "KW": 2.94,
+        "YEARBUILT": 2008,
+        "ADDRESS": "1461 E Montgomery Ave",
+        "ZIPCODE": 19125,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/36.%20Gerred%20Residence.JPG",
+        "NOTES": "Row home in Northern Liberties. 2.48 kW array mounted on the roof with the Balance of System in the back."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.129234,
+          39.975731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.177646562508,
+        "Y": 40.056187172508,
+        "OBJECTID": 18,
+        "NAME": "Graham Residence",
+        "DEVELOPER": "Philly Solar Electric",
+        "KW": 2.4,
+        "YEARBUILT": 2010,
+        "ADDRESS": "406 E Montana St.",
+        "ZIPCODE": 19119,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/37.%20Graham%20Residence.JPG",
+        "NOTES": "10 PV panels are installed on the roof of my E Mt Airy row house. They make electricity from the sun, which I think is neat."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.177643,
+          40.056171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.140491530013,
+        "Y": 39.97326014186,
+        "OBJECTID": 19,
+        "NAME": "Solar Crane",
+        "DEVELOPER": "Solar States",
+        "KW": 81.3,
+        "YEARBUILT": 2011,
+        "ADDRESS": "1400 N. American St.",
+        "ZIPCODE": 19122,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/38.%20Solar%20Crane%20Arts.jpg",
+        "NOTES": "One of the largest rooftop solar installs in Philadelphia, Solar States is expanding the PPA model throughout the region. For more info go to <a href=http://www.solar-states.com>Solar States</a>. To see the live electrical output from this system go to: <a href=http://enlighten.enphaseenergy.com/public/systems/MVd913642>Enphase Energy</a>."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.140488,
+          39.973244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.145106523579,
+        "Y": 39.904786114582,
+        "OBJECTID": 20,
+        "NAME": "Southeast Pollution Control Plant",
+        "DEVELOPER": "Dynamic Solar",
+        "KW": 250,
+        "YEARBUILT": 2011,
+        "ADDRESS": "25 Pattison Avenue",
+        "ZIPCODE": 19148,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/39.%20Southeast%20Water%20Treatment.jpg",
+        "NOTES": "The large solar installation at the Water Pollution Control Plant will significantly offset the cost of electricity to the Philadelphia Water Department.  The design went through a strict environmental review to ensure a continued level of production at the water treatment facility."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.145103,
+          39.90477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.131503524531,
+        "Y": 39.973145143273,
+        "OBJECTID": 21,
+        "NAME": "Shetty Residence",
+        "DEVELOPER": "Helio Power Systems",
+        "KW": 3.3,
+        "YEARBUILT": 2010,
+        "ADDRESS": "412 Belgrade Street",
+        "ZIPCODE": 19125,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/40.%20Shetty%20Residence.jpg",
+        "NOTES": "Another great installation by Helio Power Systems!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1315,
+          39.973129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.159244538801,
+        "Y": 39.944176129522,
+        "OBJECTID": 22,
+        "NAME": "Kim Residence",
+        "DEVELOPER": "Helio Power Systems",
+        "KW": 1.8,
+        "YEARBUILT": 2010,
+        "ADDRESS": "1024 Addison Street",
+        "ZIPCODE": 19147,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/41.%20Kim%20Residence.jpg",
+        "NOTES": "Another great installation by Helio Power Systems!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.159241,
+          39.94416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.145572532082,
+        "Y": 39.964982138324,
+        "OBJECTID": 23,
+        "NAME": "Reuter Residence",
+        "DEVELOPER": "Helio Power Systems",
+        "KW": 5.88,
+        "YEARBUILT": 2010,
+        "ADDRESS": "457 Reno Street",
+        "ZIPCODE": 19123,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/42.%20Reueter.jpg",
+        "NOTES": "Another great installation by Helio Power Systems!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.145569,
+          39.964966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.14533553175,
+        "Y": 39.964947139031,
+        "OBJECTID": 24,
+        "NAME": "Marcinczyk Residence",
+        "DEVELOPER": "Helio Power Systems",
+        "KW": 4.05,
+        "YEARBUILT": 2010,
+        "ADDRESS": "834 N. Lawrence St.",
+        "ZIPCODE": 19123,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/43.%20Marcinczyk%20Residence.jpg",
+        "NOTES": "Another great installation by Helio Power Systems!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.145332,
+          39.964931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.127551521566,
+        "Y": 39.974561143334,
+        "OBJECTID": 25,
+        "NAME": "Whipped Up Bakery",
+        "DEVELOPER": "Astrum Solar",
+        "KW": 3.2,
+        "YEARBUILT": 2010,
+        "ADDRESS": "636 Belgrade St.",
+        "ZIPCODE": 19125,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/44.%20Whipped%20Up%20Bakery.jpg",
+        "NOTES": "This LEED Gold building sports its solar array on the exterior walls of the building, and uses Sharp panels, custom Unirac wall mounts, and Enphase microinverters. Although a vertical mount is not optimal, it contributes to the positive environmental portfolio of this building."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.127548,
+          39.974545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.201625573677,
+        "Y": 40.011925153061,
+        "OBJECTID": 26,
+        "NAME": "Arthur Ashe Youth Tennis & Recreation Center",
+        "DEVELOPER": "UGI Performance",
+        "KW": 350,
+        "YEARBUILT": 2011,
+        "ADDRESS": "4842 Ridge Ave.",
+        "ZIPCODE": 19129,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/45.%20Ashe.jpg",
+        "NOTES": "This large system was put together in the fall of 2011 with 1,196 Ying Li Solar 260 watt PV panels, Power-One 300kw Inverters and an Annual Electricity Production: 367,000 kwh."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.201622,
+          40.011909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -74.987254447253,
+        "Y": 40.091492200496,
+        "OBJECTID": 27,
+        "NAME": "Jewish Relief Agency",
+        "DEVELOPER": "Exact Solar",
+        "KW": 3.36,
+        "YEARBUILT": 2011,
+        "ADDRESS": "10980 Dutton Rd",
+        "ZIPCODE": 19154,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/52.%20JRA.jpg",
+        "NOTES": "Ari Bortman used his Bar Mitvah project to help organize this installation for the community. In total, he raised about $7000 for the project.  Ari and his father donated the labor.  This system will cut their electric bills in half each month, allowing them to spend more of their budget on food for the ever-increasing numbers of needy Philadelphians that request help from them each month."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.987251,
+          40.091476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.14542753133,
+        "Y": 39.965054138882,
+        "OBJECTID": 28,
+        "NAME": "Lawrence",
+        "DEVELOPER": "Helio Power Systems",
+        "KW": 3,
+        "YEARBUILT": 2011,
+        "ADDRESS": "842 N Lawrence St",
+        "ZIPCODE": 19123,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/48.%20Lawrence.jpg",
+        "NOTES": "Another great installation by Helio Power Systems!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.145424,
+          39.965038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.131259525556,
+        "Y": 39.980855146296,
+        "OBJECTID": 29,
+        "NAME": "Amber",
+        "DEVELOPER": "Helio Power Systems",
+        "KW": 2,
+        "YEARBUILT": 2011,
+        "ADDRESS": "2061 Amber St",
+        "ZIPCODE": 19125,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/49.%20Amber.JPG",
+        "NOTES": "Another great installation by Helio Power Systems!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.131256,
+          39.980839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.13067252386,
+        "Y": 39.98093514591,
+        "OBJECTID": 30,
+        "NAME": "Susquehanna",
+        "DEVELOPER": "Helio Power Systems",
+        "KW": 3.08,
+        "YEARBUILT": 2011,
+        "ADDRESS": "2112-2114 Susquehanna Ave",
+        "ZIPCODE": 19125,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/50.%20Susquehanna.jpg",
+        "NOTES": "Another great installation by Helio Power Systems!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.130669,
+          39.980919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.125941520834,
+        "Y": 39.980687146674,
+        "OBJECTID": 31,
+        "NAME": "Sepviva",
+        "DEVELOPER": "Helio Power Systems",
+        "KW": 4.7,
+        "YEARBUILT": 2011,
+        "ADDRESS": "2419 Sepviva St",
+        "ZIPCODE": 19125,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/51.%20Sepviva.jpg",
+        "NOTES": "Another great installation by Helio Power Systems!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.125938,
+          39.980671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.138896528684,
+        "Y": 39.971131140901,
+        "OBJECTID": 32,
+        "NAME": "Finanta",
+        "DEVELOPER": "Solar States/Helio Power Systems",
+        "KW": 29.9,
+        "YEARBUILT": 2011,
+        "ADDRESS": "1301 North 2nd Street",
+        "ZIPCODE": 19122,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/53.%20Finanta.jpg",
+        "NOTES": "The team used 120 Renogy 245 kW solar panels and 120 M215 Enphase Microinverters. Solar States and Helio Power Systems did a great job planning, developing, and performing the installation and Sparks Electrical performed all of the electrical work. A real team effort!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.138893,
+          39.971115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.127879521775,
+        "Y": 39.970773141685,
+        "OBJECTID": 33,
+        "NAME": "Jays Pedal Power",
+        "DEVELOPER": "Unknown",
+        "KW": 6.7,
+        "YEARBUILT": 2010,
+        "ADDRESS": "512 E. Girard Ave",
+        "ZIPCODE": 19125,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/00.%20ImageNotAvail.jpg",
+        "NOTES": "Large PV array on the roof of Jays Pedal Power."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.127876,
+          39.970757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.140056523049,
+        "Y": 39.916722119839,
+        "OBJECTID": 34,
+        "NAME": "Ikea",
+        "DEVELOPER": "Gehrlicher Solar America Corp",
+        "KW": 1008,
+        "YEARBUILT": 2012,
+        "ADDRESS": "2206 S Columbus Blvd",
+        "ZIPCODE": 19148,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/54.%20Ikea.JPG",
+        "NOTES": "Philadelphia, PA (store) opened in 2004; store size: 311,000 SF on 20 acres SOLAR PROGRAM: 126,300 SF at 1,008 kW; 4,200 panels generating 1,220,700 kWh/year Equivalent to reducing 842 tons of CO2, 165 cars emissions or powering 105 homes."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.140053,
+          39.916706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.076775547947,
+        "Y": 40.078179273126,
+        "OBJECTID": 35,
+        "NAME": "Jim Harrigan Solar Project",
+        "DEVELOPER": "Solar City",
+        "KW": 5.88,
+        "YEARBUILT": 2013,
+        "ADDRESS": "623 Emerson St.",
+        "ZIPCODE": 19111,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/harrigan.jpg",
+        "NOTES": "City of Philadelphia employee Jim Harrigan is a proud owner of a 5.88 kw solar project on his rooftop.  Years in the making, Jim! Congratulations!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.07691,
+          40.07231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.210994572347,
+        "Y": 39.951424128702,
+        "OBJECTID": 36,
+        "NAME": "Jay Sands Row Home",
+        "DEVELOPER": "Mercury Solar Systems",
+        "KW": 2.2,
+        "YEARBUILT": 2007,
+        "ADDRESS": "4400 Pine Street",
+        "ZIPCODE": 19104,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/01.%20Jay%20Sand.jpg",
+        "NOTES": "Located in West Philadelphia boasts a 2.2 kW PV array and solar hot water system using evacuated tubes on the roof deck with enough room for a rooftop garden to boot!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.210991,
+          39.951408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.21104757128,
+        "Y": 39.945191126278,
+        "OBJECTID": 37,
+        "NAME": "The Reinhard Street Townhouses",
+        "DEVELOPER": "Solar Strategies",
+        "KW": 17.325,
+        "YEARBUILT": 2005,
+        "ADDRESS": "2700 Reinhard Street",
+        "ZIPCODE": 19143,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/02.%20Reinhard%20St.jpg",
+        "NOTES": "These townhouses include eleven 1.575 kW PV systems mounted on the roofs of 10 twin homes and a single home in an affordable housing development."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.211044,
+          39.945175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.195110559651,
+        "Y": 39.930154121641,
+        "OBJECTID": 38,
+        "NAME": "Philadelphia Housing Authority",
+        "DEVELOPER": "PHA w/Finley Shapiro Consulting",
+        "KW": 19.98,
+        "YEARBUILT": 2005,
+        "ADDRESS": "S 30th St & Mifflin St",
+        "ZIPCODE": 19145,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/03.%20Phila%20Housing%20Authority.jpg",
+        "NOTES": "The PHA developed 18 twin homes located near 30th and Mifflin Streets each featuring 1.11 kW solar PV arrays."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.195107,
+          39.930138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.254962592081,
+        "Y": 39.894807102542,
+        "OBJECTID": 39,
+        "NAME": "The Cusano Environmental Education Center",
+        "DEVELOPER": "Energy Coordinating Agency & Heat Shed",
+        "KW": 5,
+        "YEARBUILT": 2006,
+        "ADDRESS": "8601 Lindbergh Blvd",
+        "ZIPCODE": 19153,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/04.%20Cusano%20Enviro%20Center.JPG",
+        "NOTES": "The Center, located at John Heinz National Wildlife Refuge, is a 5 kW PV system that features a very impressive and detailed environmental education display. The Center also incorporates a number of other sustainable building practices, including energy efficient heating and cooling, recycled materials, and rainwater harvesting."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.254959,
+          39.894791
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.127505521808,
+        "Y": 39.974717143766,
+        "OBJECTID": 40,
+        "NAME": "Rag Flats",
+        "DEVELOPER": "CSG Services",
+        "KW": 26.5,
+        "YEARBUILT": 2009,
+        "ADDRESS": "E Berks St & Belgrade St",
+        "ZIPCODE": 19125,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/05.%20Ragflats.JPG",
+        "NOTES": "The Flats consist of 11 condo units in what was once an abandoned Rag Factory in Northern Liberties. The site includes several PV arrays with a total capacity of 26.57 kW. The arrays are broken out as separate PV systems for each of the condos and range from 2.19 kW to 2.99 kW. The Rag Flats development also features many other sustainable building practices, such as green roofs, rainwater collection, and the use of sustainable building materials in its construction."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.127502,
+          39.974701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.134616526978,
+        "Y": 39.980325145639,
+        "OBJECTID": 41,
+        "NAME": "Norris Square",
+        "DEVELOPER": "ECA and Finlay Shapiro Consulting, Inc.",
+        "KW": 9.6,
+        "YEARBUILT": 0,
+        "ADDRESS": "128 East Norris St.",
+        "ZIPCODE": 19122,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/06.%20Norris%20Square.jpg",
+        "NOTES": "Norris Square Civic Association, together with the Energy Coordinating Agency (ECA)equipped eight row homes with 1.20 kW solar arrays. Grants from the Sustainable Development Fund (SDF) and PECO paid for the project."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.134613,
+          39.980309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.108325515441,
+        "Y": 40.020566163706,
+        "OBJECTID": 42,
+        "NAME": "The Maple Point",
+        "DEVELOPER": "Don Bradley Consulting",
+        "KW": 12.48,
+        "YEARBUILT": 2008,
+        "ADDRESS": "751 Maple Lane",
+        "ZIPCODE": 19124,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/07.%20Maple%20Point%20homes.jpg",
+        "NOTES": "This housing development introduces 4 net zero energy row homes in Northeast Philadelphia. Each home contains a 3.12 kW PV system and two solar water heating (SWH) panels. These SWH panels will satisfy at least 75% of each home’s hot water requirements. T"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.108322,
+          40.02055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.242160604744,
+        "Y": 40.060048169926,
+        "OBJECTID": 43,
+        "NAME": "Schuylkill Center for Environmental Education",
+        "DEVELOPER": "Mesa Environmental Sciences, Inc.",
+        "KW": 10.2,
+        "YEARBUILT": 2006,
+        "ADDRESS": "8480 Hagys Mill Road",
+        "ZIPCODE": 19128,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/08.%20Schuylkill%20Center.jpg",
+        "NOTES": "The Center features a solar PV array that reduces green house gas emissions by 24,759 pounds per year. The system helps the Center save about $1,600 annually on electricity costs. The Center is also covered by a vegetated roof system that reduces stormwater runoff."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.242157,
+          40.060032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.178043545537,
+        "Y": 39.906403113446,
+        "OBJECTID": 44,
+        "NAME": "Philadelphia Eagles Go Green Initiative",
+        "DEVELOPER": "PPL Renewable Energy",
+        "KW": 10,
+        "YEARBUILT": 2007,
+        "ADDRESS": "1 NovaCare Way",
+        "ZIPCODE": 19145,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/09.%20Phila%20Eagles%20Go%20Green.jpg",
+        "NOTES": "The Philadelphia Eagles partnered with PPL Renewable Energy to design and construct a 10kW solar system at their NovaCare Complex, the teams training and practice complex near Lincoln Financial Field."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.17804,
+          39.906387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.017779459147,
+        "Y": 40.02951517349,
+        "OBJECTID": 45,
+        "NAME": "Riverside Correctional Facility",
+        "DEVELOPER": "Buderus",
+        "KW": 0,
+        "YEARBUILT": 2008,
+        "ADDRESS": "8001 State Rd.",
+        "ZIPCODE": 19136,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/10.%20Riverside%20Correctional%20Facility.jpg",
+        "NOTES": "The Philadelphia Prison Systems Riverside Correctional Facility (RCF) installed a roof-top solar water heating system in December 2008."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.017776,
+          40.029499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.164790543151,
+        "Y": 39.956040133205,
+        "OBJECTID": 46,
+        "NAME": "Friends Center - Going Green!",
+        "DEVELOPER": "Suntechnics (now Conergy)",
+        "KW": 10,
+        "YEARBUILT": 2009,
+        "ADDRESS": "1501 Cherry Street",
+        "ZIPCODE": 19102,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/11.%20Friends%20Center.jpg",
+        "NOTES": "Recent renovations to the Friends Center in downtown Philadelphia will significantly reduce its environmental impact.� Among the completed renovations was the installation of a 10 kilowatt solar array on top of its roof, which generates 1-2% of its total annual electricity."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.164787,
+          39.956024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.174998557086,
+        "Y": 40.01747215764,
+        "OBJECTID": 47,
+        "NAME": "US General Services Administration",
+        "DEVELOPER": "Ray Angelini",
+        "KW": 455,
+        "YEARBUILT": 2010,
+        "ADDRESS": "5000 Wissahickon Avenue",
+        "ZIPCODE": 19144,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/12.%20US%20General%20Services%20Administration.jpg",
+        "NOTES": "This Verterans Administration Center now boasts a 455kW rooftop solar PV installation. The solar power system is comprised of 1,937 Sharp 235W solar panels. This solar array enables the Department of Veterans Affairs to meet nearly 5% of its electricity needs with clean, safe, emissions-free solar power."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.174995,
+          40.017456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.148875531079,
+        "Y": 39.944150130226,
+        "OBJECTID": 48,
+        "NAME": "Private Residence",
+        "DEVELOPER": "Russell Solar",
+        "KW": 0,
+        "YEARBUILT": 2009,
+        "ADDRESS": "332 South 4th St.",
+        "ZIPCODE": 19106,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/13.Private%20Residence%20(Todd).jpg",
+        "NOTES": "This Society Hill project is special because it shows that solar can live in harmony with historical buildings."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.148872,
+          39.944134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.217578592342,
+        "Y": 40.087777181888,
+        "OBJECTID": 49,
+        "NAME": "DeSeve Residence",
+        "DEVELOPER": "Mercury Solar Systems",
+        "KW": 9.5,
+        "YEARBUILT": 2009,
+        "ADDRESS": "9412 Meadowbrook Ave.",
+        "ZIPCODE": 19118,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/14.%20DeSeve%20Residence.jpg",
+        "NOTES": "Completed as part of a energy efficiency upgrade package that also included air sealing and foam insulation retrofit.  Funded by PA Sunshine Program.  Sharp 215 modules on ProSolar racking."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.217575,
+          40.087761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.164203543686,
+        "Y": 39.966298137551,
+        "OBJECTID": 50,
+        "NAME": "Randal Residence",
+        "DEVELOPER": "Mercury Solar Systems",
+        "KW": 2.8,
+        "YEARBUILT": 2009,
+        "ADDRESS": "1601 North Street",
+        "ZIPCODE": 19130,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/15.%20Randal%20Residence.jpg",
+        "NOTES": "Among the first projects in Philadelphia funded by the PA Sunshine Program.  Sharp 175 modules on ballasted Unirac racking.   Project also included installation of a TPO �White Roof� to reduce solar heat gain.   In the first full year of operation, the system produced 3465 kWh, surpassing projection by more than 5%."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1642,
+          39.966282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.168506556362,
+        "Y": 40.042317167811,
+        "OBJECTID": 51,
+        "NAME": "Alvah Bushnell Company",
+        "DEVELOPER": "Mercury Solar Systems",
+        "KW": 85,
+        "YEARBUILT": 2009,
+        "ADDRESS": "519 Chelten Ave",
+        "ZIPCODE": 19144,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/16.%20Alvah%20Bushnell.JPG",
+        "NOTES": "At time of installation, the largest private sector PV project in Philadelphia.   Funded by the PA Sunshine Program.  Suntech 260 modules on ballasted Panel Claw racking.  Project also included installation of a TPO \"White Roof\" to reduce solar heat gain."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.168503,
+          40.042301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.213901586749,
+        "Y": 40.060418171033,
+        "OBJECTID": 52,
+        "NAME": "Springside School",
+        "DEVELOPER": "Alteris Renewables",
+        "KW": 92.4,
+        "YEARBUILT": 2009,
+        "ADDRESS": "8000 Cherokee Street",
+        "ZIPCODE": 19118,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/17.%20Springside%20School.JPG",
+        "NOTES": "The installation is atop the schools Vare Field house. The project was instituted as a 40th anniversary project by the graduates of the class of 1966. Their fundraising efforts, combined with those of the schools parent association, plus a $400,000 grant from the state Energy Harvest program covered the cost."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.213898,
+          40.060402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.186168553391,
+        "Y": 39.932606122855,
+        "OBJECTID": 53,
+        "NAME": "Nesmith & Company",
+        "DEVELOPER": "Mercury Solar Systems",
+        "KW": 36,
+        "YEARBUILT": 2010,
+        "ADDRESS": "2440 Tasker Street",
+        "ZIPCODE": 19145,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/18.%20Nesmith%20&%20Company.jpg",
+        "NOTES": "With its almost perfect southerly orientation and module tilt, and no shading, the system is producing an incredible 58,000 kWh annually,  or 1611 kWh per kW.  Suntech 200 modules on ProSolar racking.  Funding by the PA Sunshine program."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.186165,
+          39.93259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "X": -75.134242526095,
+        "Y": 39.976727143628,
+        "OBJECTID": 54,
+        "NAME": "Feast Your Eyes",
+        "DEVELOPER": "Mercury Solar Systems",
+        "KW": 6,
+        "YEARBUILT": 2009,
+        "ADDRESS": "1750 N. Front St.",
+        "ZIPCODE": 19123,
+        "THUMB_URL": "http://gis.phila.gov/gisdata/Images/Solar_Projects/19.%20Feast%20Your%20Eyes.jpg",
+        "NOTES": "Part of an adaptive re-use project, converting an abandoned industrial building to a catering facility.   Sharp 175 modules on Unirac racking.  Funding by the PA Sunshine program."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.134239,
+          39.976711
+        ]
+      }
+    }
+  ]
+}
