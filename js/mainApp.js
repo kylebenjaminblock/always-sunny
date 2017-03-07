@@ -14,213 +14,203 @@ var Stamen_TonerLite = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/wat
   ext: 'png'
 }).addTo(map);
 
-/// Create Slides ///
+/// Call and parse data ///
+var dataset = "https://gist.githubusercontent.com/kylebenjaminblock/e1a3a57312624e6a76dd13c69c8a37d5/raw/4c29fa3772e22a9522d4f0173ccb6a548dc4b03e/map.geojson";
+var cleanData;
+var parsedData;
+///var allData;
+var featureGroup;
 
+$.ajax(dataset).done(function(dataset) {
+  parsedData=JSON.parse(dataset);
+});
+
+/// Add all data map as layer ///
+var allData = function(){
+  featureGroup = L.geoJson(parsedData, {
+    filter: dataToShow,
+    style: myStyle,
+    pointToLayer: function(feature, latlng) {
+      return L.circleMarker(latlng, myStyle);
+    }
+  }).addTo(map);
+};
+
+/// Create slides ///
 var state = {
-  "slideNumber": 0, // slideNumber keeps track of what slide you are on. It should increase when you
-                    // click the next button and decrease when you click the previous button. It
-                    // should never get so large that it is bigger than the dataset. It should never
-                    // get so small that it is smaller than 0.
+  "slideNumber": 0,
   "slideData": [
     {
-      "id": "0",
       "name": "It's Always Sunny in Philadelphia",
-      "description": "Location of solar panel installations in Philly",
+      "readMe": "Location of solar panel installations in Philly",
     },
     {
-      "id": "1",
       "name": "How sunny was Philadelphia in 2010?",
-      "description": "Installations before 2010",
-      "pre_2010": 2010,
+      "readMe": "How sunny was Philadelphia in 2010?",
     },
     {
-      "id": "2",
       "name": "How sunny was Philaelphia after 2010?",
-      "description": "Installations after 2010",
-      "post_2010": 2010,
+      "readMe": "How sunny was Philaelphia after 2010?",
     },
     {
-      "id": "3",
-      "name": "Where is the sunniest place in Philadelphia?",
-      "description": "Wattage of installations",
+      "readMe": "Where is the sunniest place in Philadelphia with the most solar wattage?",
+      "description": "Where is the sunniest place in Philadelphia with the most solar wattage?",
     },
     {
-      "id": "4",
-      "name": "Where is the sunniest ZIP in Philadelphia?",
-      "description": "ZIP code of installations",
+      "readMe": "Where is the sunniest ZIP in Philadelphia?",
+      "description": "Where is the sunniest ZIP in Philadelphia?",
     },
   ]
 };
 
-// Advance slide number upon "next" click
-var clickNext = function(event) {
-  var limit = state.slideData.length - 1;
-  if (state.slideNumber + 1 > limit) {
-    state.slideNumber = 0;
-  } else {
-    state.slideNumber = state.slideNumber + 1;
-  }
-  return state.slideData[state.slideNumber];
+/// Create first landing page
+var slideOne = function(event){
+  $(".readMe").text("It's Always Sunny in Philadelphia!");
+  state.slideNumber = 0;
+  clearSlide();
+  allData();
+  $('.prev').hide();
+  $('.next').show();
 };
 
-// Feed slide advance function upon next click event
-$("#next").click(function(event) {
-  clickNext();
-});
-
-// Subtract slide number upon "previous" click
-var clickPrev = function(event) {
-  var limit = 0;
-  if (state.slideNumber = limit) {
-    state.slideNumber = 0;
-  } else {
-    state.slideNumber = state.slideNumber - 1;
-  }
-  return state.slideData[state.slideNumber];
-};
-
-// Feed slide subtraction function upon previous click event
-$("#prev").click(function(event) {
-  clickPrev();
-});
-
-// /// Slide 1 Function
-// var myStyle1 = function(YEARBUILT) {
-//   // myStyle1Zoom();
-//  if (cleanData.YEARBUILT < 2010) {
-//    pre_2010.addTo(map);
-//  }
-//     $('#prev').hide();
-//     $("#sidebar").empty().append("It's Always Sunny in Philadelphia");
-// };
-
-/// Get and parse data
-
-var cleanData;
-$.ajax("https://raw.githubusercontent.com/CPLN692-MUSA611/datasets/master/json/philadelphia-solar-installations.json").done(function(rawData){
-   cleanData = JSON.parse(rawData);
-   console.log(cleanData);
-   _.each(cleanData, function(rawData){
-     L.marker([cleanData.LAT, cleanData.LONG_]).addTo(map);
-    });
-   });
-
-
-
-// /// SLIDE 1 ///
-// plot all solar installations in Philly FILTER by YEARBUILT
-
-
-
-/// Slide 2 ///
-// Plot all solar installations prior to 2010
-
-// function pre2010 (YEARBUILT) {
-//   return
-// }
-//
-// var pre2010 = function(YEARBUILT){
-//   if (cleanData.YEARBUILT < 2010) {
-//
-//   }
-// }
-// //
-
-
-// downloadData.done(function(rawData) {
-//     for (var i = 0; i < cleanData.length -1; i++) {
-//       if (cleanData[i].YEARBUILT < 2010) {
-//         filtered_pre2010.push(cleanData[i]);
-//       } else {
-//         filtered_out.push(cleanData[i]);
-//       };
-//     };
-//   });
-//     console.log(filtered_pre2010);
-
-
-
-/// SLIDE 3 ///
-// Filter installations after 2010
-
-// var pre2010 = [2010];
-// var filtered_pre2010 = []
-// var filtered_out = []
-
-// for (var i = 0; i < cleanData.length -1; i++) {
-//   /// Necessary to convert to string? ///
-//   if (cleanData[i].YEARBUILT < 2010) {
-//     filtered_pre2010.push(cleanData[i]);
-//   } else {
-//     filtered_out.push(cleanData[i]);
-//   }
-// }
-
-/// SLIDE 4 ///
-/// Show KWs in a popup
-
-// var color;
-//   if (filtered_pre2010[i].YEARBUILT){
-//   color = '#0000FF'
-// };
-//
-// var pathOpts = {'radius': filtered_pre2010[i].cleanData,
-//                   'fillColor': color};
-
-  // L.circleMarker([filtered_data[i].LAT, [i].LONG_], pathOpts).bindPopup(filtered_pre2010[i].NAME).addTo(map);
-
-/// Slide 5
-/// Show ZIP code in pop up
-
-$.ajax("https://raw.githubusercontent.com/CPLN692-MUSA611/datasets/master/json/philadelphia-solar-installations.json").done(function(rawData){
-   cleanData = JSON.parse(rawData);
-   console.log(cleanData);
-   _.each(cleanData, function(rawData){
-     L.marker([cleanData.LAT, cleanData.LONG_]).addTo(map);
-    });
-   });
-
- /// FILTERING OPTION 1
- var pre2010 = [];
- var filtered_out_2010 = [];
- for (var i = 0; i < cleanData.length - 1; i++) {
-   b42010 = cleanData[i].YEARBUILT <2010;
-   filter_condition = (b42010);
-
-   if (filter_condition) {
-     pre2010.push(cleanData[i]);
-   } else {
-     filtered_out_2010.push(cleanData[i]);
+/// Create color style style for each filtered slide
+ var myStyle = function (feature) {
+   if (state.slideNumber === 0){
+     return {color: '#97201b'};
    }
- }
-
-/// FILTER OPTION 2
-
-pre2010 = _.filter(cleanData,function(YEARBUILT){
-     return cleanData.YEARBUILT < 2010;
-             });
-   slideBikeMarkers = L.geoJSON(bike, {
-       pointToLayer: function (feature, latlng) {
-           return L.circleMarker(latlng, bikeMarkerOptions);
-       }
-   }).addTo(map);
+   else if (state.slideNumber === 1){
+     return {color: '#97201b'};
+   }
+   else if (state.slideNumber === 2){
+     return {color: '#97201b'};
+   }
+   else if (state.slideNumber === 3){
+     return {color: '#9e6689'};
+   }
+   else if (state.slideNumber === 4){
+     return {color: '#2c57a3'};
+   }
  };
 
-  //  var all =  cleanData.;
-  //  var pre2010=cleanData.YEARBUILT>2010;
-  //  var post2010;=
-  //  var wattage;
-  //  var zipcode;
+/// Create function to clear points from slide prior to advancing to next
+var clearSlide = function(){
+  if (typeof featureGroup !== 'undefined'){
+    map.removeLayer (featureGroup);
+  }
+};
 
-// if (slideNumber===0) {
-//           all.addTo(map);
-//         } else if (slideNumber===1) {
-//           pre2010.addTo(map);
-//         } else if (slideNumber===2) {
-//           post2010.addTo(map);
-//         }  else if (slideNumber==3)  {
-//           wattage.addTo(map);
-//         } else if (slideNumber==4) {
-//           zipcode.addTo(map);
-//         };
-//       };
+/// Set zoom level for slide five
+var slideFiveZoom = function(){
+   if (state.slideNumber === 4){
+     map.setView([39.962879, -75.142558], 12);
+   }
+   else if (state.slideNumber === 0) {
+     map.setView([39.9522, -75.1639], 13);
+   }
+   else if (state.slideNumber === 1) {
+     map.setView([39.9522, -75.1639], 13);
+   }
+   else if (state.slideNumber === 2) {
+     map.setView([39.9522, -75.1639], 13);
+   }
+   else if (state.slideNumber ===3) {
+     map.setView([39.9522, -75.1639], 13);
+   }
+ };
+
+/// Define data to display when respective slide number is "reached"
+var dataToShow = function(feature){
+  if (state.slideNumber === 0){ /// return all solar installations
+    return false;
+    }
+  else if (state.slideNumber === 1){
+    if (feature.properties.YEARBUILT < 2010){ /// return installations prior to 2010
+      return true;
+    }
+  }
+else if (state.slideNumber === 2){
+  if (feature.properties.YEARBUILT > 2010) { /// return installations after 2010
+    return true;
+    }
+  }
+else if (state.slideNumber === 3){ /// return high KW installations
+  if (feature.properties.KW > 20){
+    return true;
+    }
+  }
+else if (state.slideNumber === 4){
+  if (feature.properties.ZIPCODE === 19123){ /// return installations in NoLibs
+    return true;
+    }
+  }
+};
+
+/// Increase slide number and clear existing data upon "next" click event
+var clickNext = function(event) {
+  if (state.slideNumber < state.slideData.length) {
+  $(".readMe").text(state.slideData[state.slideNumber]["readMe"]);
+  state.slideNumber = state.slideNumber +1;
+    } else {
+    state.slideNumber = 0;
+    }
+  clearSlide();
+  allData()
+  return state.slideNumber;
+};
+
+/// Subtract slide number and clear existing data upon "previous" click event
+var clickPrev = function(event) {
+  if (state.slideNumber >1) {
+    state.slideNumber = state.slideNumber -1;
+    $(".readMe").text(state.slideData[state.slideNumber]["readMe"]);
+  } else {
+    state.slideNumber = 0;
+    slideOne();
+  }
+    clearSlide();
+    allData();
+    return state.slideNumber;
+  };
+
+/// Define next click event and pass event into slide advancement function
+function nextClicked() {
+  alert('ok, you clicked next');
+}
+
+var nextEvent = function(){
+  $(".next").click(function(){
+    if (state.slideNumber < state.slideData.length){
+      if (state.slideNumber < state.slideData.length -1){
+        $('.prev').show();
+        $('.next').show();
+        clickNext()
+      }
+      else {
+        $('.prev').show();
+        $('.next').hide();
+        clickNext();
+              }
+            }
+          })
+        }
+
+/// Define previous click event and pass event into slide substraction function
+var prevEvent = function() {
+  $(".prev").click(function() {
+    if (state.slideNumber > 0) {
+      if (state.slideNumber == state.slideData.length){
+        $('.prev').show();
+        $('.next').hide();
+        clickPrev()
+      } else {
+        $('.prev').show();
+        $('.next').show();
+      }
+      clickPrev();
+    }
+  });
+}
+
+/// Execute next and previous click events
+nextEvent();
+prevEvent();
